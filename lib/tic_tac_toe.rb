@@ -15,7 +15,7 @@ class TicTacToe
 
 
 
-  def display_board(board)
+  def display_board=(board)
     @board = board
     puts "#{@board[0]}"
     puts "-----------"
