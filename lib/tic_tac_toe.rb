@@ -13,9 +13,7 @@ class TicTacToe
     [6,4,2]
   ]
 
-  def display_board=(board)
-    @board = board
-  end
+  
 
   def display_board(board)
     @board = board
